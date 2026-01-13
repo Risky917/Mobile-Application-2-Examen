@@ -64,7 +64,7 @@ function TabNavigator() {
       <Tab.Screen 
         name="Profile" 
         component={ProfileScreen}
-        options={{ title: 'Profile' }}
+        options={{ title: 'Mathias Vanneste' }}
       />
     </Tab.Navigator>
   );
