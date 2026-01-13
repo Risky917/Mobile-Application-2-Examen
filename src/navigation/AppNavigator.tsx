@@ -18,6 +18,7 @@ function TabNavigator() {
 
   return (
     <Tab.Navigator
+      id="RootTabs"
       screenOptions={({ route }) => ({
         tabBarIcon: ({ focused, color, size }) => {
           let iconName: keyof typeof Ionicons.glyphMap;
